@@ -3,7 +3,7 @@ import { faker } from "@faker-js/faker"
 
 import { LoginPagePO } from "../page-objects/loginPagePO";
 
-describe('První PO - LoginPage', () => {
+describe('První PO - LoginPage..', () => {
     it('Login PM tool', () => {
        let loginPage = new LoginPagePO();
        loginPage.openPMTool();
